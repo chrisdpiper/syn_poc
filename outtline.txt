@@ -1,0 +1,65 @@
+
+
+so we can ask questions on frogs, ai and chemistry
+
+frogs:
+tell me about frogs
+how many species of frogs are there
+
+
+science:
+what is an atomic weight
+what is uranium
+what is the atomic weight of uranium
+who are famous women scientists
+who is madam curie 
+How does the concept of electronegativity explain the formation of different types of chemical bonds (ionic, covalent, and metallic)?
+Why is accuracy and precision important in chemistry? 
+How does the molecular structure of a material impact its properties on a macro scale and the way that material functions? 
+What is the temperature at which the vapor pressure of a liquid slightly exceeds the pressure of the atmosphere above the liquid?
+What theory states that equal volumes of different gases contain the same number of molecules when compared under the same conditions.
+What are atoms of the same element that differ in weight?
+The inner-most electron shell can contain how many electrons?
+Why does salt dissolve in water, but not in oil?
+
+AI:
+
+what are key benefits of ai 
+how ddoes ai bewnefit our lives?
+
+are are key issues with ai
+what economnic issues with ai exist
+who is katalin
+what does katalin believe about ai?
+
+what is a digital agency capsule?
+what are the benefits of a digital agency capsule
+
+who will benfit the most from ai?
+
+
+ramdon general:
+sharks
+squirrels
+
+
+less than optimal examples:
+who is walcott
+
+what does katalin believe?
+what is a homerun?
+what is a cool task?
+
+question:what is the statistcal probability that katalin would agreee with openai's use of data
+---
+answer:
+---
+ The given context does not provide enough information to determine the statistical probability that 
+ Katalin Bártfai-Walcott agrees with OpenAI's use of data. However, it is evident from her comment 
+ that she shares concerns about data ownership and suggests embedding sovereignty into data for greater control. 
+ This could potentially imply disagreement with OpenAI's approach to using data without return value 
+ to the original creators; however, more context or direct quotes regarding OpenAI's specific use of 
+ data would be needed to make an accurate assessment.
+---
+
+
