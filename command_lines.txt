@@ -1,0 +1,4 @@
+JWT Token: eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJjcGlwZXJAc3lub3ZpZW50LmNvbSIsIkZpcnN0TmFtZSI6ImNocmlzIiwiTGFzdE5hbWUiOiJwaXBlciIsImV4cCI6MTc0MjYxNTUzOX0.6BkycdeX8Dp7tLPnumr0ANmkDTvoVC7pSwtnLwBnh-GtfO5SgR3Ge4o9ArztF7EYBfijpckBAVBDZtWGepPkQA
+
+DacTool.exe create --path c:\test --org chris --name first -d na -u cpiper@synovient.com -p P@ssw0rd_syn -s https://api.staging.certify.synovient.com
+DacTool.exe extract -f "Electric Mirage - Chasing Neon Skies.dac" --user matt.royer@ambiententerprises.com --password P@ssw0rd2 -o .\ElectricMirage-ChasingNeonSkies-Extract
