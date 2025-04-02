@@ -44,11 +44,15 @@ squirrels
 
 
 less than optimal examples:
-who is walcott
+who is walcottd
 
 what does katalin believe?
 what is a homerun?
 what is a cool task?
+
+list cities mentioned
+list latitudes mentioned
+
 
 question:what is the statistcal probability that katalin would agreee with openai's use of data
 ---

@@ -4,6 +4,7 @@ from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_community.document_loaders import UnstructuredWordDocumentLoader
+from langchain_community.document_loaders import UnstructuredPowerPointLoader
 from langchain_community.document_loaders import UnstructuredURLLoader
 
 CHROMA_PATH = os.getenv('CHROMA_PATH', 'chroma')
@@ -23,6 +24,16 @@ class db_class:
                 embedding_function=self.embedder
             )
 
+         
+    def set_chroma_path(self, path):
+        global CHROMA_PATH 
+        CHROMA_PATH = path
+        self.vector_db = Chroma(
+            persist_directory=CHROMA_PATH,
+                embedding_function=self.embedder
+            )
+
+
     def load(self, path):
         fileExt =  os.path.splitext(path)
         #print("preping:"+path)
@@ -33,6 +44,13 @@ class db_class:
             print("loading url:" + path)
             self.loaded_files = loader.load()
              
+
+
+        elif "pptx" in fileExt[1]:
+            # dont forget pip install "unstructured[all-docs]"
+            loader = UnstructuredPowerPointLoader(file_path=path)
+            print("loading powerpoint doc:" + path)
+            self.loaded_files = loader.load()
 
         elif "doc" in fileExt[1]:
             # dont forget pip install "unstructured[all-docs]"

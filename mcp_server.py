@@ -1,4 +1,6 @@
 #https://blog.stackademic.com/build-simple-local-mcp-server-5434d19572a4
+#really just this #https://modelcontextprotocol.io/quickstart/server
+
 #pip install mcp[cli] httpx
 from mcp.server.fastmcp import FastMCP #pip indstall mcp
 

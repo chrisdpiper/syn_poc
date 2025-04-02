@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=LRcjlXL9hPA
+https://github.com/DhruvAtreja/datavisualization_langgraph
+https://blog.langchain.dev/data-viz-agent/
+pennyisP@ssw0rdES!
+
+
+mcp 
+https://www.youtube.com/watch?v=7j_NE6Pjv-E
+https://www.youtube.com/watch?v=VChRPFUzJGA
+https://www.pulsemcp.com/clients
+https://www.pulsemcp.com/servers
+
+https://towardsdatascience.com/clear-intro-to-mcp/ good pic
+
+https://towardsdatascience.com/clear-intro-to-mcp/
+
+cladue and example
+https://www.youtube.com/watch?v=v_6EXt6T83I
+
+
+https://github.com/browserbase/stagehand
+stagehand server
+https://github.com/browserbase/mcp-server-browserbase/blob/main/stagehand/README.md
+
+https://github.com/modelcontextprotocol/python-sdk 

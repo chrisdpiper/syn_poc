@@ -54,4 +54,27 @@ while True:
     scale = 100
     ax.quiver(x,y,z,u,v,w, color='r')
 
-    plt.show()    
+    plt.show()   
+
+   def encode(query, embedder,ax,col):
+        print("mbedding with " + str(col))
+        query_vector = embedder.embed_query(query)
+        x = []
+        y = []
+        z  = []
+        u = []
+        v = []
+        w = []
+        last_x = 0
+        last_y = 0
+        last_z = 0
+        for i in range(0,len(query_vector),3):
+            x.append(last_x)
+            y.append(last_y)
+            z.append(last_z)
+            u.append(query_vector[i])
+            v.append(query_vector[i+1])
+            w.append(query_vector[i+2])
+            last_x = last_x + query_vector[i]
+            last_y = last_y + query_vector[i+1]
+        

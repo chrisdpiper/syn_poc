@@ -2,3 +2,9 @@ JWT Token: eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjL
 
 DacTool.exe create --path c:\test --org chris --name first -d na -u cpiper@synovient.com -p P@ssw0rd_syn -s https://api.staging.certify.synovient.com
 DacTool.exe extract -f "Electric Mirage - Chasing Neon Skies.dac" --user matt.royer@ambiententerprises.com --password P@ssw0rd2 -o .\ElectricMirage-ChasingNeonSkies-Extract
+
+part 1 intro to query pipilines https://www.youtube.com/watch?v=CeDS1yvw9E4
+
+part 2 LLMs for Advanced Question-Answering over Tabular/CSV/SQL Data  https://www.youtube.com/watch?v=L1o1VPVfbb0
+part 3 https://www.youtube.com/watch?v=T0bgevj0vto  
+https://docs.llamaindex.ai/en/stable/examples
